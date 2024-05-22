@@ -5,12 +5,14 @@
 local M = {}
 
 M.ui = {
-	theme = "onedark",
-
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+	theme = "chadracula-evondev",
+  nvdash = {
+    load_on_startup = true
+  },
+  statusline = {
+    theme = "default",
+    separator_style = "round"
+  }
 }
 
 return M
